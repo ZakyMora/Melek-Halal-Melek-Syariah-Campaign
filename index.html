@@ -103,10 +103,10 @@
   <!-- ===================================================================== -->
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16 sm:h-20">
+      <div class="flex items-center justify-between gap-4 h-16 sm:h-20">
         
         <!-- Top-Left Logo: ONLY 'SYLS 2026 | She She Adelita' + Crescent/Geometric Icon -->
-        <a href="#beranda" class="flex items-center gap-3 group focus:outline-none">
+        <a href="#beranda" class="flex items-center gap-3 shrink-0 group focus:outline-none">
           <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-bsi-teal to-bsi-deep flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
             <!-- Clean Crescent & 8-Point Islamic Star Icon -->
             <svg class="w-6 h-6 text-bsi-gold" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -114,25 +114,25 @@
               <polygon points="17.5,4 18.6,6.4 21,7.5 18.6,8.6 17.5,11 16.4,8.6 14,7.5 16.4,6.4" fill="#F4DF9E"/>
             </svg>
           </div>
-          <span class="font-display font-bold text-sm sm:text-base lg:text-lg tracking-tight text-bsi-deep">
+          <span class="font-display font-bold text-sm sm:text-base lg:text-lg tracking-tight text-bsi-deep whitespace-nowrap">
             SYLS 2026 <span class="text-bsi-gold mx-1">|</span> <span class="text-slate-800">She She Adelita</span>
           </span>
         </a>
 
         <!-- Desktop Navigation Links -->
-        <nav class="hidden lg:flex items-center gap-1 xl:gap-2" aria-label="Navigasi Utama">
-          <a href="#regulasi" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Regulasi</a>
-          <a href="#pilar-gerakan" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Tiga Pilar</a>
-          <a href="#alur" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Alur Halal</a>
-          <a href="#booklet" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Booklet Hub</a>
-          <a href="#keuangan" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Keuangan BSI</a>
-          <a href="#testimoni" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Testimoni</a>
-          <a href="#profil" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors">Profil</a>
+        <nav class="hidden lg:flex items-center gap-2 xl:gap-5 text-sm" aria-label="Navigasi Utama">
+          <a href="#regulasi" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Regulasi</a>
+          <a href="#pilar-gerakan" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Tiga Pilar</a>
+          <a href="#alur" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Alur Halal</a>
+          <a href="#booklet" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Booklet Hub</a>
+          <a href="#keuangan" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Keuangan BSI</a>
+          <a href="#testimoni" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Testimoni</a>
+          <a href="#profil" class="px-2.5 py-2 rounded-lg font-medium text-slate-700 hover:text-bsi-teal hover:bg-bsi-mint/60 transition-colors whitespace-nowrap">Profil</a>
           <a
             href="https://chat.whatsapp.com/Ko99B20ZuBdBXWymdZcCUH?s=sw&p=i&mlu=4&ilr=4&iam=2"
             target="_blank"
             rel="noopener noreferrer"
-            class="ml-2 inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-bsi-teal hover:bg-bsi-deep text-white font-display font-bold text-xs xl:text-sm shadow-sm transition-colors"
+            class="ml-1 inline-flex items-center justify-center px-4 py-2 rounded-xl bg-bsi-teal hover:bg-bsi-deep text-white font-display font-bold text-xs xl:text-sm shadow-sm transition-colors whitespace-nowrap shrink-0"
           >
             <span>Gabung Komunitas</span>
           </a>
@@ -269,16 +269,17 @@
         </div>
 
         <!-- Right Hero Column: Clean Digital Booklet Showcase Card -->
-          <div class="relative mx-auto max-w-md bg-white text-slate-800 rounded-3xl p-6 sm:p-7 shadow-2xl border border-bsi-gold/40">
+        <div class="lg:col-span-5 w-full">
+          <div class="relative w-full max-w-md mx-auto lg:max-w-none lg:min-w-[320px] bg-white text-slate-800 rounded-3xl p-6 sm:p-7 shadow-2xl border border-bsi-gold/40">
             <!-- Top Ribbon -->
-            <div class="flex items-center justify-between gap-2 mb-5">
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-bsi-mint text-bsi-deep font-semibold text-xs">
-                <svg class="w-3.5 h-3.5 text-bsi-teal" fill="currentColor" viewBox="0 0 20 20">
+            <div class="flex items-center justify-between gap-3 mb-5">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-bsi-mint text-bsi-deep font-semibold text-xs whitespace-nowrap">
+                <svg class="w-3.5 h-3.5 text-bsi-teal shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
                 </svg>
-                Edisi Resmi SYLS 2026
+                <span>Edisi Resmi SYLS 2026</span>
               </span>
-              <span class="text-xs font-bold text-bsi-goldDark bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full">
+              <span class="text-xs font-bold text-bsi-goldDark bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full whitespace-nowrap shrink-0">
                 PDF Gratis
               </span>
             </div>
@@ -287,9 +288,9 @@
             <div class="relative rounded-2xl bg-gradient-to-br from-bsi-deep via-bsi-teal to-emerald-700 p-6 text-white overflow-hidden shadow-lg mb-5">
               <div class="absolute inset-0 islamic-pattern opacity-40 pointer-events-none"></div>
               <div class="relative z-10 flex flex-col justify-between min-h-[220px]">
-                <div class="flex items-center justify-between text-[11px] uppercase tracking-widest text-bsi-goldLight font-semibold">
+                <div class="flex items-center justify-between gap-2 text-[11px] uppercase tracking-widest text-bsi-goldLight font-semibold">
                   <span>Panduan Praktis UMKM</span>
-                  <span>BSI × SYLS 2026</span>
+                  <span class="shrink-0">BSI × SYLS 2026</span>
                 </div>
 
                 <div class="my-4">
@@ -302,21 +303,21 @@
                   </p>
                 </div>
 
-                <div class="flex items-center justify-between pt-3 border-t border-white/20 text-xs">
+                <div class="flex items-center justify-between gap-2 pt-3 border-t border-white/20 text-xs">
                   <span class="font-medium text-white/95">Disusun oleh: <strong>She She Adelita</strong></span>
-                  <span class="px-2 py-0.5 rounded bg-white/15 text-bsi-goldLight font-semibold">2026</span>
+                  <span class="px-2.5 py-0.5 rounded bg-white/15 text-bsi-goldLight font-semibold shrink-0">2026</span>
                 </div>
               </div>
             </div>
 
             <!-- Quick Highlights inside Booklet Card -->
-            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-5">
-              <li class="flex items-center gap-2">
-                <span class="w-5 h-5 rounded-full bg-bsi-mint text-bsi-teal flex items-center justify-center shrink-0 font-bold">✓</span>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600 mb-5">
+              <li class="flex items-start gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-bsi-mint text-bsi-teal flex items-center justify-center shrink-0 font-bold mt-0.5">✓</span>
                 <span>Checklist dokumen &amp; 5 langkah daftar SIHALAL</span>
               </li>
-              <li class="flex items-center gap-2">
-                <span class="w-5 h-5 rounded-full bg-bsi-mint text-bsi-teal flex items-center justify-center shrink-0 font-bold">✓</span>
+              <li class="flex items-start gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-bsi-mint text-bsi-teal flex items-center justify-center shrink-0 font-bold mt-0.5">✓</span>
                 <span>Template pemisahan kas usaha &amp; tabungan bebas riba</span>
               </li>
             </ul>
@@ -326,9 +327,9 @@
               <button
                 type="button"
                 onclick="openBookletModal()"
-                class="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-bsi-mint text-bsi-deep hover:bg-bsi-teal hover:text-white font-display font-bold text-xs sm:text-sm transition cursor-pointer"
+                class="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-bsi-mint text-bsi-deep hover:bg-bsi-teal hover:text-white font-display font-bold text-xs sm:text-sm transition whitespace-nowrap cursor-pointer"
               >
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
@@ -338,9 +339,9 @@
               <a
                 href="Melek-Halal-Melek-Syariah.pdf"
                 download="Melek-Halal-Melek-Syariah.pdf"
-                class="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-bsi-deep text-white hover:bg-bsi-dark font-display font-bold text-xs sm:text-sm transition"
+                class="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-bsi-deep text-white hover:bg-bsi-dark font-display font-bold text-xs sm:text-sm transition whitespace-nowrap"
               >
-                <svg class="w-4 h-4 text-bsi-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <svg class="w-4 h-4 text-bsi-gold shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
                 </svg>
                 <span>Unduh PDF</span>
